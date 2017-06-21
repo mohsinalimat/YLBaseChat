@@ -12,7 +12,7 @@ import UIKit
 import SnapKit
 import YYText
 
-class BaseChatVC: UIViewController {
+class BaseChatVC: BasicViewController {
     
     // 上一次播放的语音
     fileprivate var oldChatVoiceMessage:Message? = nil

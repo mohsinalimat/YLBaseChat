@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		29FFACFF73F7B70AD81DD44E /* Pods_YLBaseChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05C908AE6C05F21FE78D4A61 /* Pods_YLBaseChat.framework */; };
+		4790F71C1EFA5D84004702B5 /* BasicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4790F71B1EFA5D84004702B5 /* BasicViewController.swift */; };
+		4790F71E1EFA5DB3004702B5 /* BasicTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4790F71D1EFA5DB3004702B5 /* BasicTabBarController.swift */; };
+		4790F7231EFA6045004702B5 /* FindViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4790F7221EFA6045004702B5 /* FindViewController.swift */; };
+		4790F7251EFA6059004702B5 /* FriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4790F7241EFA6059004702B5 /* FriendsViewController.swift */; };
+		4790F7271EFA6065004702B5 /* MeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4790F7261EFA6065004702B5 /* MeViewController.swift */; };
 		7903C3A61EC4257F0015D151 /* RealmManagers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7903C3A51EC4257F0015D151 /* RealmManagers.swift */; };
 		7923C7EB1EC58CBC00B922E9 /* BaseChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7923C7EA1EC58CBC00B922E9 /* BaseChatVC.swift */; };
 		7924402B1ED4384A00D3E2DF /* emojiImage.plist in Resources */ = {isa = PBXBuildFile; fileRef = 792440081ED4384A00D3E2DF /* emojiImage.plist */; };
@@ -49,7 +54,7 @@
 		7924D2B81ED5693100D7765C /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7924D2B71ED5693100D7765C /* Extension.swift */; };
 		793722511EE50558004A6898 /* ChatVoiceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793722501EE50558004A6898 /* ChatVoiceCell.swift */; };
 		794C307A1EC1580100AB4605 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794C30791EC1580100AB4605 /* AppDelegate.swift */; };
-		794C307C1EC1580100AB4605 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794C307B1EC1580100AB4605 /* ViewController.swift */; };
+		794C307C1EC1580100AB4605 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794C307B1EC1580100AB4605 /* ChatViewController.swift */; };
 		794C30841EC1580100AB4605 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 794C30821EC1580100AB4605 /* LaunchScreen.storyboard */; };
 		794C30931EC15F1700AB4605 /* RealmModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794C30921EC15F1700AB4605 /* RealmModels.swift */; };
 		7999B4501ED67AF0000F7227 /* ChatTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7999B44F1ED67AF0000F7227 /* ChatTextCell.swift */; };
@@ -66,6 +71,11 @@
 
 /* Begin PBXFileReference section */
 		05C908AE6C05F21FE78D4A61 /* Pods_YLBaseChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YLBaseChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4790F71B1EFA5D84004702B5 /* BasicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicViewController.swift; sourceTree = "<group>"; };
+		4790F71D1EFA5DB3004702B5 /* BasicTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicTabBarController.swift; sourceTree = "<group>"; };
+		4790F7221EFA6045004702B5 /* FindViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindViewController.swift; sourceTree = "<group>"; };
+		4790F7241EFA6059004702B5 /* FriendsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; };
+		4790F7261EFA6065004702B5 /* MeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeViewController.swift; sourceTree = "<group>"; };
 		5F18E4657CAAAC013BEB62D1 /* Pods-YLBaseChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YLBaseChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YLBaseChat/Pods-YLBaseChat.debug.xcconfig"; sourceTree = "<group>"; };
 		7903C3A51EC4257F0015D151 /* RealmManagers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmManagers.swift; sourceTree = "<group>"; };
 		7923C7EA1EC58CBC00B922E9 /* BaseChatVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseChatVC.swift; sourceTree = "<group>"; };
@@ -109,7 +119,7 @@
 		793722501EE50558004A6898 /* ChatVoiceCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatVoiceCell.swift; sourceTree = "<group>"; };
 		794C30761EC1580100AB4605 /* YLBaseChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YLBaseChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		794C30791EC1580100AB4605 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		794C307B1EC1580100AB4605 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		794C307B1EC1580100AB4605 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ChatViewController.swift; path = ../../ChatViewController.swift; sourceTree = "<group>"; };
 		794C30831EC1580100AB4605 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		794C30851EC1580100AB4605 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		794C30921EC15F1700AB4605 /* RealmModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmModels.swift; sourceTree = "<group>"; };
@@ -138,6 +148,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4790F71A1EFA5D6A004702B5 /* Basic */ = {
+			isa = PBXGroup;
+			children = (
+				4790F71B1EFA5D84004702B5 /* BasicViewController.swift */,
+				4790F71D1EFA5DB3004702B5 /* BasicTabBarController.swift */,
+			);
+			path = Basic;
+			sourceTree = "<group>";
+		};
+		4790F71F1EFA5E53004702B5 /* Find */ = {
+			isa = PBXGroup;
+			children = (
+				4790F7221EFA6045004702B5 /* FindViewController.swift */,
+			);
+			path = Find;
+			sourceTree = "<group>";
+		};
+		4790F7201EFA5E53004702B5 /* Friends */ = {
+			isa = PBXGroup;
+			children = (
+				4790F7241EFA6059004702B5 /* FriendsViewController.swift */,
+			);
+			path = Friends;
+			sourceTree = "<group>";
+		};
+		4790F7211EFA5E53004702B5 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				4790F7261EFA6065004702B5 /* MeViewController.swift */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
 		792440061ED4384A00D3E2DF /* YLReplyView */ = {
 			isa = PBXGroup;
 			children = (
@@ -217,9 +260,12 @@
 		794C30781EC1580100AB4605 /* YLBaseChat */ = {
 			isa = PBXGroup;
 			children = (
+				4790F71F1EFA5E53004702B5 /* Find */,
+				4790F7201EFA5E53004702B5 /* Friends */,
+				4790F7211EFA5E53004702B5 /* Me */,
+				4790F71A1EFA5D6A004702B5 /* Basic */,
 				794C308D1EC15E7700AB4605 /* Chat */,
 				794C30791EC1580100AB4605 /* AppDelegate.swift */,
-				794C307B1EC1580100AB4605 /* ViewController.swift */,
 				7999B4531ED6BBA6000F7227 /* Assets.xcassets */,
 				794C30821EC1580100AB4605 /* LaunchScreen.storyboard */,
 				794C30851EC1580100AB4605 /* Info.plist */,
@@ -264,6 +310,7 @@
 		794C30901EC15EDF00AB4605 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				794C307B1EC1580100AB4605 /* ChatViewController.swift */,
 				7923C7EA1EC58CBC00B922E9 /* BaseChatVC.swift */,
 			);
 			path = ViewControllers;
@@ -460,11 +507,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4790F7231EFA6045004702B5 /* FindViewController.swift in Sources */,
 				7924404C1ED4384A00D3E2DF /* YLReplyView.swift in Sources */,
+				4790F7251EFA6059004702B5 /* FriendsViewController.swift in Sources */,
 				7924D2B41ED51CB000D7765C /* UIImage+Extension.swift in Sources */,
 				79BE0B421ECD33E700EDA46D /* YLTouchesGestureRecognizer.swift in Sources */,
 				79BE0B441ECD669000EDA46D /* ChatView.swift in Sources */,
 				794C30931EC15F1700AB4605 /* RealmModels.swift in Sources */,
+				4790F71C1EFA5D84004702B5 /* BasicViewController.swift in Sources */,
 				79B2F8CF1ED2A4830094404B /* UIView+Extension.swift in Sources */,
 				793722511EE50558004A6898 /* ChatVoiceCell.swift in Sources */,
 				79D69C6A1EE4E82C00FB5315 /* VoiceManager.swift in Sources */,
@@ -473,8 +523,10 @@
 				79E47CDE1ED6691F00D129C1 /* BaseChatCell.swift in Sources */,
 				7999B4501ED67AF0000F7227 /* ChatTextCell.swift in Sources */,
 				7924D2B81ED5693100D7765C /* Extension.swift in Sources */,
-				794C307C1EC1580100AB4605 /* ViewController.swift in Sources */,
+				794C307C1EC1580100AB4605 /* ChatViewController.swift in Sources */,
 				79DA2FB91EC956B9005B8D9A /* Definition.swift in Sources */,
+				4790F7271EFA6065004702B5 /* MeViewController.swift in Sources */,
+				4790F71E1EFA5DB3004702B5 /* BasicTabBarController.swift in Sources */,
 				794C307A1EC1580100AB4605 /* AppDelegate.swift in Sources */,
 				792440481ED4384A00D3E2DF /* YLFaceView.swift in Sources */,
 				7924404B1ED4384A00D3E2DF /* YLPTextView.swift in Sources */,

@@ -40,8 +40,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         window?.backgroundColor = UIColor.white
         
-        window?.rootViewController = UINavigationController(rootViewController: ViewController())
-        
+        let rootTabCOntroller = BasicTabBarController();
+        self.window?.rootViewController = rootTabCOntroller;
+//        window?.rootViewController = UINavigationController(rootViewController: ViewController())
         window?.makeKeyAndVisible()
         
         return true
